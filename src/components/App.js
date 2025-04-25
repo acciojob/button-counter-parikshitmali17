@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Button Clicked {NoClick} times</p>
+        Button Clicked <p>{NoClick} </p>times
    <button onClick={()=>setNoClicl(NoClick+1)}>Click Me</button>
         
     </div>
